@@ -10,3 +10,8 @@ document.getElementById("contact-form").addEventListener("submit", function (e) 
   // Optionally clear the form
   this.reset();
 });
+
+function ShowContent(){
+  const content = getElementById("hiddenContent");
+  content.hidden = !content.hidden;
+}
