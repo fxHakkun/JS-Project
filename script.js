@@ -12,6 +12,6 @@ document.getElementById("contact-form").addEventListener("submit", function (e) 
 });
 
 function ShowContent(){
-  const content = getElementById("hiddenContent");
-  return content.hidden = !content.hidden;
+  const content = document.getElementById("hiddenContent");
+  content.hidden = !content.hidden;
 }
