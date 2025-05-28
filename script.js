@@ -15,3 +15,4 @@ function ShowContent(){
   const content = document.getElementById("hiddenContent");
   content.hidden = !content.hidden;
 }
+
