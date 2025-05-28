@@ -13,5 +13,5 @@ document.getElementById("contact-form").addEventListener("submit", function (e) 
 
 function ShowContent(){
   const content = getElementById("hiddenContent");
-  content.hidden = !content.hidden;
+  return content.hidden = !content.hidden;
 }
